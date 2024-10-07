@@ -79,7 +79,7 @@ for l2 in link2:
 musicians_df = pd.DataFrame(musicians_data)
 
 # Lưu vào file Excel
-file_name = "musicians.xlsx"
+file_name = "Nguyen_Duc_Truong_musicians.xlsx"
 musicians_df.to_excel(file_name, index=False)  # index=False để không lưu chỉ số
 print('Đã lưu thành công')
 
